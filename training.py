@@ -51,7 +51,6 @@ for document in documents:
 
     output_row = list(output_empty)
     output_row[classes.index(document[1])] = 1
-    # output_row[classes.index(document[1][0])] = 1
     training.append([bag, output_row])
 
 # Separate inputs and outputs
