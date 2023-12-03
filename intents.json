@@ -73,9 +73,25 @@
       "context_set": ""
     },
     {
-      "tag": ["unom", "university of madras"],
-      "patterns": ["What is unom?"],
-      "responses": ["University of Madras"],
+      "tag": "courses",
+      "patterns": [
+        "What are the courses available?",
+        "Courses",
+        "Show courses"
+      ],
+      "responses": [
+        "The courses available are MCA, M.Sc, MPhil, and Phd.",
+        "MCA, M.Sc. MPhil, Phd"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "MCA",
+      "patterns": ["Tell about MCA?", "MCA eligibility", "MCA", "TANCET"],
+      "responses": [
+        "A pass in TANCET is necessary for admission into MCA",
+        "A Bachelors degree in B.Sc, BCA with maths is required"
+      ],
       "context_set": ""
     }
   ]
